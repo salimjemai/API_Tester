@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://vulcan/CWS/usermanagement.asmx?wsdl" docRef="http://vulcan/CWS/usermanagement.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://vulcan/CWS/usermanagement.asmx" xmlns:q1="http://corridor.aero/cws/" binding="q1:UserManagementSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://vulcan/CWS/usermanagement.asmx" xmlns:q2="http://corridor.aero/cws/" binding="q2:UserManagementSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
