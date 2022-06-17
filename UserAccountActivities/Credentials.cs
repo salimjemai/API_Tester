@@ -2,35 +2,31 @@
 
 public class Credentials
 {
-    // This is the CWS application URL
-    public const string WsdlURL = "http://extdev6win10/CWS/";  
+    public const string WsdlURL = "http://vulcan/CWS/";  
     public string GetWsdlURL()
     {
         return WsdlURL;
     }
 
-
-    public const string SoapActionURL = "http://corridor.aero/cws/";
+    public const string SoapActionURL = "http://SAOPActionURL";
     public string GetSoapActionURL()
     {
         return SoapActionURL;
     }
 
-    private const string AliasName = "QA12c_V11_UC_1";
+    private const string AliasName = "Enter_your_schema_here";
     public string GetAliasName()
     {
         return AliasName;
     }
 
-    // Please provide the API username to login
-    private const string LoginID = "cati";
+    private const string LoginID = "CorridorAPIUser";
     public string GetLoginID()
     {
         return LoginID;
     }
 
-    // Please provide the API user password
-    private const string LoginPassword = "PgacdE"; 
+    private const string LoginPassword = "CorridorAPIPassword"; 
     public string GetLoginPassword()
     {
         return LoginPassword;

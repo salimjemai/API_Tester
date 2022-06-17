@@ -117,10 +117,10 @@ namespace UserAccountActivities
             Credentials Obj = new Credentials();
 
             //Making Web Request    
-            HttpWebRequest Req = (HttpWebRequest)WebRequest.Create(@"http://extdev6win10/CWS/usermanagement.asmx");
+            HttpWebRequest Req = (HttpWebRequest)WebRequest.Create(@Obj.GetWsdlURL()+"usermanagement.asmx");
 
             //SOAPAction    
-            Req.Headers.Add(@"SOAPAction:http://corridor.aero/cws/GetUser");
+            Req.Headers.Add(@"SOAPAction:"+Obj.GetSoapActionURL()+"GetUser");
 
             //Content_type    
             Req.ContentType = "text/xml;charset=\"utf-8\"";
